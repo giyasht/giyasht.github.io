@@ -1,0 +1,256 @@
+.row {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo{
+    margin-left: 30%;
+}
+
+.logo img{ 
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.main-nav {
+    margin-top: 0%;
+    list-style: circle;
+    text-align: center;
+}
+
+.main-nav li{
+    margin-top: 1%;
+    display: inline-block;
+}
+
+.main-nav li a{
+    color: rgb(253, 228, 0);
+    text-decoration: dashed;
+    padding: 20px 20px;
+    margin-top: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.main-nav li.active a{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px 19px;
+}
+
+.main-nav li a:hover{
+    border: 1px;
+    border-radius: 45%;
+    padding: 10%;
+    width: 30%;
+    background-color: rgb(1, 131, 1);
+    transform: all 0.5s ease-in;
+}
+
+.cir {
+    background: rgb(1,117,156);
+    background: linear-gradient(0deg, rgba(1,117,156,1) 0%, rgba(32,219,107,1) 100%);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.photo{
+    text-align: center;
+    align-items: center;
+    display: block;
+}
+
+.photo img{ 
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+.phot{
+    align-items: center;
+    text-align: center;
+    text-decoration: dotted;
+    color: rgb(224, 83, 83);
+}
+
+.nam{
+    text-decoration: dotted;
+    color: rgb(128, 243, 117);
+    font-size: 350%;
+    font-family: cursive;
+}
+
+.about{
+    align-items: center;
+    text-align: center;
+    text-decoration: dotted;
+    color: brown;
+    font-size: larger;
+    font-family: cursive;
+}
+
+.about-content{
+    font-size: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.education{
+    align-items: center;
+    text-align: center;
+    text-decoration: dotted;
+    color: brown;
+    font-size: larger;
+    font-family: cursive;
+}
+
+.education-content{
+    font-size: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.work{
+    align-items: center;
+    text-align: center;
+    text-decoration: dotted;
+    color: brown;
+    font-size: larger;
+    font-family: cursive;
+}
+
+.work-content{
+    font-size: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.profiles{
+    align-items: center;
+    text-align: center;
+    text-decoration: dotted;
+    color: brown;
+    font-size: larger;
+    font-family: cursive;
+}
+
+.profiles-content{
+    font-size: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.fab {
+    padding: 20px;
+    font-size: 80px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fab:hover {
+    padding: 20px;
+    font-size: 100px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+   
+.fa-hackerrank {
+    /* background: ghostwhite; */
+    color: green;
+}
+
+.fa-github {
+    color: black;
+}
+
+.image{
+    padding-left: 20px;
+    width: 70px;
+}
+
+.image:hover{
+    padding-left: 20px;
+    width: 80px;
+}
+  
+.social{
+    align-items: center;
+    text-align: center;
+    text-decoration: dotted;
+    color: brown;
+    font-size: larger;
+    font-family: cursive;
+}
+
+.social-content{
+    
+    font-size: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.fa {
+    /* padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 4px;
+    border-radius: 50%; */
+
+    padding: 5px;
+    font-size: 80px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin{
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram{
+    background: #125688;
+    color: white;
+}
+
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+}
+
+.contact{
+    background: rgb(148,186,199);
+background: linear-gradient(0deg, rgba(148,186,199,1) 0%, rgba(62,59,59,1) 100%);    align-items: center;
+    text-align: center;
+    text-decoration: dotted;
+    color: brown;
+    font-size: larger;
+    font-family: cursive;
+}
+
+.contact-content{
+    font-size: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.hpage{
+    background: url("bkg1.jpg");
+}
